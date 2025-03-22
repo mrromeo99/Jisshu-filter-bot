@@ -36,7 +36,7 @@ DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002681646366')) # The mov
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002681646366'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002097884361')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002471519870'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002576009404') # If anyone sends a request message to your bot, you will get it in this channel.
+request_channel = environ.get('REQUEST_CHANNEL', '-1002471519870') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002251927740')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/movie_masalaprouk') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
