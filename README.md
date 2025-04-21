@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://i.ibb.co/qpxpGmC/image.jpg" alt="Jisshu-Auto-filter">
+  <img src="https://iili.io/3zz4xIf.md.jpg" alt="Jisshu-Auto-filter">
 </p>
 <h1 align="center">
-  <a href="https://telegram.me/JISSHU_BOTS">Jisshu Auto Filter Bot</a>
+  <a href="https://t.me/world_0f_parad0x">ᴛᴏᴍ - 🎥 ᴍᴏᴠɪᴇ ʙᴏᴛ</a>
 </h1>
 <img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
 
