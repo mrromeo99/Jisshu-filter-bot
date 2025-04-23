@@ -115,7 +115,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ :{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/moviemasala_pro">[𝙈𝙤𝙫𝙞𝙚 𝙈𝙖𝙨𝙖𝙡𝙖]™</a>」</b>"""
+    FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ :{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/moviemasala_pro">[𝙈𝙤𝙫𝙞𝙚 𝙈𝙖𝙨𝙖𝙡𝙖]™</a>」\n\nIɴꜱᴛᴀɢʀᴀᴍ➥「<a href="https://www.instagram.com/mr_maker_74">[ᴍʀ_ᴍᴀᴋᴇʀ_𝟽𝟺]</a>」</b>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
