@@ -69,12 +69,12 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://iili.io/3EtitJR.md.jpg https://iili.io/3EtiRtt.md.jpg https://iili.io/3EtPp6b.jpg https://iili.io/3EtPOyN.md.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://iili.io/3wZf2Eu.md.jpg https://iili.io/3wZfeZ7.md.jpg https://iili.io/3wZqRV9.md.jpg https://iili.io/3wZBJUb.md.jpg https://iili.io/3wZK6Xt.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://iili.io/3zz4LTG.md.jpg'))
-REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
+REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡", "☠", "👿", "😵‍💫", "🥱"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
