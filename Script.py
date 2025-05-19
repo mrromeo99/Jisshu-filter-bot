@@ -75,22 +75,28 @@ B  _________       __
         \/     \/      \/          \/ </b>"""
         
     
-    STATUS_TXT = """<b><u>🗃 ᴅᴀᴛᴀʙᴀsᴇ 1 🗃</u>
-
-» ᴛᴏᴛᴀʟ ᴜsᴇʀs - <code>{}</code>
-» ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘs - <code>{}</code>
-» ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
-
-<u>🗳 ᴅᴀᴛᴀʙᴀsᴇ 2 🗳</u></b>
-
-» ᴛᴏᴛᴀʟ ꜰɪʟᴇs - <code>{}</code>
-» ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
-
-<u>🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟs 🤖</u>
-
-» ᴜᴘᴛɪᴍᴇ - <code>{}</code>
-» ʀᴀᴍ - <code>{}%</code>
-» ᴄᴘᴜ - <code>{}%</code></b>"""
+    STATUS_TXT = """<b>╭────[ 🗃 ᴅᴀᴛᴀʙᴀsᴇ 1 🗃 ]────⍟</b>
+│
+├⋟ 🕵️ ᴀʟʟ ᴜsᴇʀs ⋟ <code>{}</code>
+├⋟ 🏹 ᴀʟʟ ɢʀᴏᴜᴘs ⋟ <code>{}</code>
+├⋟ ❤️‍🔥 Pʀᴇᴍɪᴜᴍ Usᴇʀs ⋟ <code>{}</code>
+├⋟ 🎬 ᴀʟʟ ꜰɪʟᴇs ⋟ <code>{}</code>
+├⋟ 📽️ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ ⋟ <code>{}</code>
+├⋟ 🏷️ ꜰʀᴇᴇ sᴛᴏʀᴀɢᴇ ⋟ <code>{}</code>
+│
+<b>├────[ 🗳 ᴅᴀᴛᴀʙᴀsᴇ 2 🗳 ]────⍟</b>   
+│
+├⋟ 🎬 ᴀʟʟ ꜰɪʟᴇs ➤ <code>{}</code>
+├⋟ 🎤 size ➤ <code>{}</code>
+├⋟ 🎭 free ➤ <code>{}</code>
+│
+<b>├────[ 🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟs 🤖 ]────⍟</b>   
+│
+├⋟ ⏱ Bᴏᴛ Uᴘᴛɪᴍᴇ ➤ {}
+├⋟ 🌐 ʀᴀᴍ ➤ <code>{}%</code>
+├⋟ 🤖 ᴄᴘᴜ ➤ <code>{}%</code>   
+│
+<b>╰─────────────────────⍟</b>"""
 
     NEW_USER_TXT = """<b>#New_User {}
 
@@ -352,7 +358,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 
     SOURCE_TXT = """<b>
 NOTE:
-- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/world_0f_parad0x">ᴛᴏᴍ - 🎥 ᴍᴏᴠɪᴇ ʙᴏᴛ</a></blockquote>
+- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/world_0f_parad0x">༄ᶦᶰᵈ᭄࿐𝙒𝙤𝙧𝙡𝙙 𝙤𝙛 𝙥𝙖𝙧𝙖𝙙𝙤𝙭</a></blockquote>
 
 developer : ༄ᶦᶰᵈ᭄࿐𝘗𝘢𝘳𝘢𝘥𝟎𝘹 么
 </b>""" 
