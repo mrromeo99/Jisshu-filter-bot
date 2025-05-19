@@ -127,22 +127,20 @@ async def get_poster(query, bulk=False, id=False, file=None):
         'url':f'https://www.imdb.com/title/tt{movieid}'
     }
 
-async def users_broadcast(user_id, message, is_pin):
+async def broadcast_messages(user_id, message):
     try:
-        m=await message.copy(chat_id=user_id)
-        if is_pin:
-            await m.pin(both_sides=True)
+        await message.copy(chat_id=user_id)
         return True, "Success"
     except FloodWait as e:
         await asyncio.sleep(e.x)
-        return await users_broadcast(user_id, message)
+        return await broadcast_messages(user_id, message)
     except InputUserDeactivated:
         await db.delete_user(int(user_id))
         logging.info(f"{user_id}-Removed from Database, since deleted account.")
         return False, "Deleted"
     except UserIsBlocked:
+        await db.delete_user(int(user_id))
         logging.info(f"{user_id} -Blocked the bot.")
-        await db.delete_user(user_id)
         return False, "Blocked"
     except PeerIdInvalid:
         await db.delete_user(int(user_id))
@@ -151,21 +149,19 @@ async def users_broadcast(user_id, message, is_pin):
     except Exception as e:
         return False, "Error"
 
-async def groups_broadcast(chat_id, message, is_pin):
+async def broadcast_messages_group(chat_id, message):
     try:
-        m = await message.copy(chat_id=chat_id)
-        if is_pin:
-            try:
-                await m.pin()
-            except:
-                pass
-        return "Success"
+        kd = await message.copy(chat_id=chat_id)
+        try:
+            await kd.pin()
+        except:
+            pass
+        return True, "Success"
     except FloodWait as e:
         await asyncio.sleep(e.x)
-        return await groups_broadcast(chat_id, message)
+        return await broadcast_messages_group(chat_id, message)
     except Exception as e:
-        await db.delete_chat(chat_id)
-        return "Error"
+        return False, "Error"
 
 async def get_settings(group_id , pm_mode = False):
     if pm_mode:
