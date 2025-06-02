@@ -815,16 +815,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "start":
         buttons = [[
-                InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                 ],[
-                InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
-                InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
+                InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data='features'),
+                InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data=f'about')
                 ],[
-                InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
+                InlineKeyboardButton('• ᴘʀᴇᴍɪᴜᴍ •', callback_data='seeplans'),
+                InlineKeyboardButton('• ʀᴇғғᴇʀ •', callback_data="reffff")
                 ],[
-                InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
-                InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
+                InlineKeyboardButton('ᴍᴏꜱᴛ ꜱᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
+                InlineKeyboardButton('ᴛᴏᴘ ᴛʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                 ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -907,15 +907,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer(f'You Have: {referdb.get_refer_points(query.from_user.id)} Refferal points.', show_alert=True)
 
     elif query.data == "verifyon":
-        await query.answer(f'Only the bot admin can ᴏɴ ✓ or ᴏғғ ✗ this feature.', show_alert=True)
+        await query.answer(f'ᴏɴʟʏ ᴛʜᴇ ʙᴏᴛ ᴀᴅᴍɪɴ ᴄᴀɴ ᴏɴ ✓ ᴏʀ ᴏғғ ✗ ᴛʜɪꜱ ғᴇᴀᴛᴜʀᴇ..', show_alert=True)
     
     elif query.data == "features":
         buttons = [[
-              InlineKeyboardButton('Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs', callback_data='admincmd'),
-              InlineKeyboardButton('Iᴍᴀɢᴇ Tᴏ Lɪɴᴋ', callback_data='telegraph'),
+              InlineKeyboardButton('ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ', callback_data='admincmd'),
+              InlineKeyboardButton('ɪᴍᴀɢᴇ ᴛᴏ ʟɪɴᴋ', callback_data='telegraph'),
               ], [
-              InlineKeyboardButton('F-Sᴜʙ', callback_data='fsub'),
-              InlineKeyboardButton('Gʀᴏᴜᴘ Sᴇᴛᴜᴘ', callback_data='earn')
+              InlineKeyboardButton('ғ-ꜱᴜʙ', callback_data='fsub'),
+              InlineKeyboardButton('ɢʀᴏᴜᴘ-ꜱᴇᴛᴜᴘ', callback_data='earn')
               ], [
               InlineKeyboardButton('⋞ Back To Home', callback_data='start')
               ]]
@@ -993,20 +993,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [[
 			InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer')
 		],[
-			InlineKeyboardButton('Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', callback_data='Source')
+			InlineKeyboardButton('ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', callback_data='Source')
                 ],[
-                        InlineKeyboardButton('Mʏ Dᴇᴠᴇʟᴏᴘᴇʀs 😎',callback_data='mydevelopers')
+                        InlineKeyboardButton('ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ 😎',callback_data='mydevelopers')
 		],[
 			InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='start')]]
                 ),
             disable_web_page_preview = True
 	)
     elif query.data == "mydevelopers":
-        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @pArAd0X6\n👨‍💻 @mrnoodles69\n👨‍💻 @tigu69\n👨‍💻 @world_0f_parad0x\n\n\n❤️ ᴀ ʙɪɢ ᴛʜᴀɴᴋs ᴛᴏ ʏᴏᴜ ɢᴜʏs ғᴏʀ ᴍᴀᴋɪɴɢ ᴛʜɪs ᴀᴡᴇsᴏᴍᴇ ʙᴏᴛ", show_alert=True)
+        await query.answer("ᴍᴇᴇᴛ ᴛʜᴇ ᴍɪɴᴅꜱ ʙᴇʜɪɴᴅ ᴛʜɪꜱ ʙᴏᴛ:\n\n👨‍💻 @pArAd0X6\n👨‍💻 @mrnoodles69\n👨‍💻 @tigu69\n\n ᴀ ʙɪɢ ᴛʜᴀɴᴋs ᴛᴏ ʏᴏᴜ ɢᴜʏs ғᴏʀ ᴍᴀᴋɪɴɢ ᴛʜɪs ᴀᴡᴇsᴏᴍᴇ ʙᴏᴛ", show_alert=True)
  
     elif query.data == "Source":
         buttons = [[
-            InlineKeyboardButton('Repo', url='https://github.com/mrromeo99/Jisshu-filter-bot.git')
+            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/mrromeo99/Jisshu-filter-bot.git')
         ],[
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='about'),
             InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
