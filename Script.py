@@ -39,7 +39,13 @@ class script(object):
 <blockquote> ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/pArAd0X6'>༄ᶦᶰᵈ᭄࿐𝘗𝘢𝘳𝘢𝘥𝟎𝘹 </a></b></blockquote>"""
     
 
-    ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ : ᴛᴏᴍ - 🎥 ᴍᴏᴠɪᴇ ʙᴏᴛ\n‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/pArAd0X6'>༄ᶦᶰᵈ᭄࿐𝘗𝘢𝘳𝘢𝘥𝟎𝘹 </a>\n‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ\n‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ\n‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\n‣ ʜᴏsᴛᴇᴅ ᴏɴ  : ᴀʟʟ ᴡᴇʙ\n‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ5.2 [sᴛᴀʙʟᴇ]</b></blockquote>"""    
+    ABOUT_TEXT = """<blockquote><b>❍ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/Tmfltbot">ᴋʜᴏᴋᴀ-𝟺𝟸𝟶</a>
+❍ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/pArAd0X6">༄ᶦᶰᵈ᭄࿐𝘗𝘢𝘳𝘢𝘥𝟎𝘹</a>
+❍ ʟɪʙʀᴀʀʏ : <a href="https://pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a>
+❍ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ</a>
+❍ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
+❍ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://t.me/world_0f_parad0x">ᴠᴘs</a>
+❍ ʙᴜɪʟᴅ ꜱᴛᴀᴛᴜꜱ : ᴠ3 [ᴀᴅᴠᴀɴᴄᴇ]</blockquote></b>"""
     
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
 
