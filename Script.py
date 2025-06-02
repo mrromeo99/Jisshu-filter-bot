@@ -354,7 +354,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 NOTE:
 - ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/world_0f_parad0x">༄ᶦᶰᵈ᭄࿐𝙒𝙤𝙧𝙡𝙙 𝙤𝙛 𝙥𝙖𝙧𝙖𝙙𝙤𝙭</a></blockquote>
 
-developer : ༄ᶦᶰᵈ᭄࿐𝘗𝘢𝘳𝘢𝘥𝟎𝘹 么
+ᴅᴇᴠᴇʟᴏᴘᴇʀ :༄ᶦᶰᵈ᭄࿐𝘗𝘢𝘳𝘢𝘥𝟎𝘹 么
 </b>""" 
     GROUP_C_TEXT = """<b><blockquote>
  --------------Set Verify-------------
